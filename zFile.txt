@@ -1,0 +1,3 @@
+Waaaoooooo Make sure to replace 'example.txt' with the path to your text file. 
+
+This code will open the file, read it line by line, and display each line along with its line number.

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHP DOCS</title>
+</head>
+<body>
+    Class :- Class is a blueprint which has property and method.
+
+
+        class ClassName{
+            function __construct($name) {  <------- It auto call when create object
+                $this->name = $name;
+            }
+
+
+            public $data = '';  <------- Properties
+
+            function getData(){  <------- Methods
+
+            }
+
+        }
+
+    Object :- Object is define as new, it is instance of a class.
+
+        $val = new ClassName();  <------- instance of a class
+        $val->getData();
+
+
+    Constructor :- __construct it altomatically called  when we create object.
+
+    Access Modifier :- It has public, protected, private.
+        public :- Access by parent class or child class, access within the class or outsidethe class.
+        protected :- Access by parent class or child class only.
+        private :- Access within the class only.
+</body>
+</html>
+
+
